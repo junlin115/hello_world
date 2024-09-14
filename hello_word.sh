@@ -8,9 +8,10 @@ echo 'Hello Wor'
 
 #
 # print the list of files in the directory
-function print _list() {
+function print_list() {
 
 	echo 'These are the files in your dirctory:'
 
 	ls
 }
+print_list
